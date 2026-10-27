@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zarate's Midterm Portfolio | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Zarate Midterm Portfolio</h1>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="media.html">Media</a>
+    <a href="contact.html" class="active" aria-current="page">Contact</a>
+  </nav>
+
+  <main>
+    <section class="card">
+      <img class="avatar" src="picture.jpeg" alt="Picture group of my teamates in Cheer Dance">
+      <h2>Contact Details</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Contact Form</legend>
+
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" placeholder="Full Name" required>
+
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+          <label for="topic">Inquiry Topic *</label>
+          <select id="topic" name="topic" required>
+            <option value="">-- Select Inquiry Type --</option>
+            <option value="html">Semantic HTML Structuring</option>
+            <option value="layout">Flexbox Layout Optimization</option>
+            <option value="wcag">WCAG Accessibility Audit</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" placeholder="How can I help you?" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p> Developed by Zarate | HUMAN-COMPUTER INTERACTION</p>
+  </footer>
+</body>
+</html>
